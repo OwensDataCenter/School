@@ -16,10 +16,8 @@ from webbot import Browser
 from time import sleep
 web = Browser()
 print('================================')
-print('Made By: YeetsaJr')
 print('g = www.Google.com')
-print('Use Your own URL')
-print('Leave Blank For Default Website')
+print('Leave Blank For OPS Chat')
 print('================================')
 website = input('Website: ')
 
@@ -27,7 +25,7 @@ if website == 'g':
 	web.go_to('https://www.google.com/')
 
 if website == '':
-	web.go_to('https://pypi.org/project/webbot')
+	web.go_to('http://71.72.206.164/')
 
 else:
 	web.go_to(website)
